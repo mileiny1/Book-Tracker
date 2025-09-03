@@ -1,28 +1,40 @@
-📚 Book Tracker
 
-Book Tracker is a web app that helps you organize and track your reading. Add books, update progress, rate them, and keep notes—all in one place.
+# 📚 Book Tracker (Front-End)
 
-Features
+A React-based front-end application to help users track their books, including details like title, author, genre, rating, and personal notes. This version focuses on the user interface and local storage for data persistence.
 
-Add, edit, and delete books
+---
 
-Track title, author, genre, rating, and notes
+## 🌟 Features
 
-Search and filter books easily
+- **Add Books:** Users can add books with title, author, genre, rating, and optional notes.
+- **View Books:** Display a list of all added books.
+- **Filter by Genre:** Easily filter books by genre.
+- **Responsive Design:** Works on desktop, tablet, and mobile devices.
+- **Persistent Storage:** Book data is stored in `localStorage` to keep it available after refreshing the page.
+- **Interactive UI:** Smooth and modern interface built with React and Bootstrap.
 
-Responsive design for desktop and mobile
+---
 
-Saves your library locally
+## 🛠 Technologies Used
 
-Tech Stack
+- **Frontend:** React, JSX, Bootstrap, CSS
+- **State Management:** React `useState` and `useEffect`
+- **Storage:** localStorage
+- **Version Control:** Git & GitHub
 
-Front-End: React, Bootstrap, CSS
+---
 
-State Management: React Hooks / Context API
+## 🚀 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/mileiny1/Book-Tracker.git
 
 
 
-Installation
+
+
 git clone https://github.com/mileiny1/book-tracker.git
 cd book-tracker
 npm install
