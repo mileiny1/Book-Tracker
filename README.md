@@ -30,12 +30,6 @@ A React-based front-end application to help users track their books, including d
 1. Clone the repository:
 ```bash
 git clone https://github.com/mileiny1/Book-Tracker.git
-
-
-
-
-
-git clone https://github.com/mileiny1/book-tracker.git
 cd book-tracker
 npm install
 npm start 
