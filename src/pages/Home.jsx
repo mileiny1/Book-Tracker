@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import BookForm from "../components/BookForm";
 import BookList from "../components/BookList";
 import SearchBar from "../components/SearchBar";
-import EditBookModal from "../components/EditBookModal";
+import EditBookModal from "../components/EditBookModal"; 
+import { Container } from "react-bootstrap";
 
 function Home({ books, setBooks }) {
   const [search, setSearch] = useState("");
@@ -46,7 +47,7 @@ function Home({ books, setBooks }) {
   );
 
   return (
-    <div>
+    <Container className="mb-5">
       <h1 className="text-center mb-4">📚 My Book Tracker</h1>
       <SearchBar search={search} setSearch={setSearch} />
       <BookForm addBook={addBook} />
@@ -63,7 +64,7 @@ function Home({ books, setBooks }) {
         setCurrentBook={setCurrentBook}
         handleEditSave={handleEditSave}
       />
-    </div>
+    </Container>
   );
 }
 
