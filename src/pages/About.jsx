@@ -50,9 +50,7 @@ export default function About() {
                 library looks great on any screen.
               </p>
 
-              <div className="bg-light rounded-4 p-3 p-md-4">
-                
-              </div>
+             
 
               <p className="text-muted small mt-4 mb-0">Made with ❤️ by readers, for readers.</p>
             </div>
